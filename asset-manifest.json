@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-pol-app/static/css/main.d168889b.css",
+    "main.js": "/react-pol-app/static/js/main.eda2494e.js",
+    "static/media/Politie-logo-269952DA5A-seeklogo.com.png": "/react-pol-app/static/media/Politie-logo-269952DA5A-seeklogo.com.cba841405777845ee994.png",
+    "index.html": "/react-pol-app/index.html",
+    "main.d168889b.css.map": "/react-pol-app/static/css/main.d168889b.css.map",
+    "main.eda2494e.js.map": "/react-pol-app/static/js/main.eda2494e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d168889b.css",
+    "static/js/main.eda2494e.js"
+  ]
+}
