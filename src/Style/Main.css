@@ -1,0 +1,86 @@
+main {
+  /* background-image: url("https://www.politie.nl/binaries/medium/content/gallery/politie/hero-images/goedenmiddag.jpg"); */
+
+  /* background-image: url("https://www.steffie.nl/files/Plaatjes/Steffie-politie-1900-tv-2.jpg"); */
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.spoed {
+  display: block;
+  font-size: 1.25em;
+  padding: 8px;
+  animation-name: bellen;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bellen {
+  25% {
+    background-color: var(--primary-clr-06);
+    color: red;
+  }
+  100% {
+    background-color: var(--primary-clr-04);
+    color: white;
+  }
+}
+
+main h1 {
+  justify-content: center;
+  display: flex;
+  background-color: var(--primary-clr-07);
+  padding: 1em;
+  font-size: 1.5em;
+  margin-top: 5.5em;
+  color: var(--primary-clr-04);
+  /* color: white; */
+  box-shadow: var(--grad-clr-02);
+}
+h3 {
+  color: var(--primary-clr-04);
+}
+p i {
+  margin-left: 1em;
+}
+.article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2em;
+}
+.article p {
+  background-color: var(--primary-clr-01);
+  padding: 2em;
+  width: 320px;
+  font-size: 1em;
+  box-shadow: var(--grad-clr-02);
+}
+.article a {
+  text-decoration: none;
+  color: black;
+}
+.article p:hover {
+  cursor: pointer;
+  background: -webkit-linear-gradient(180deg, red 33%, rgba(0, 0, 0, 0) 33%),
+    -webkit-linear-gradient(180deg, white 66%, blue 66%);
+
+  background: -o-linear-gradient(180deg, red 33%, rgba(0, 0, 0, 0) 33%),
+    -o-linear-gradient(180deg, white 66%, blue 66%);
+
+  background: -moz-linear-gradient(180deg, red 33%, rgba(0, 0, 0, 0) 33%),
+    -moz-linear-gradient(180deg, white 66%, blue 66%);
+
+  background: linear-gradient(180deg, red 33%, rgba(0, 0, 0, 0) 33%),
+    linear-gradient(180deg, white 66%, blue 66%);
+  border: 1px solid var(--primary-clr-04);
+  outline: 4px solid var(--primary-clr-02);
+}

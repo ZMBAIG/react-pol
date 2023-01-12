@@ -1,0 +1,74 @@
+input[type="search"] {
+  padding: 8px 0;
+  padding-left: 6px;
+  margin-bottom: 6px;
+}
+
+.dropbtn {
+  outline: 1px solid var(--primary-clr-05);
+  color: var(--primary-clr-04);
+  color: white;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5134f1;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid white;
+}
+
+.dropdown-content a:hover {
+  background-color: #b5bbf2;
+  border: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#pol-logo {
+  height: 100px;
+  width: 100px;
+  top: 1.8em;
+  position: relative;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--primary-clr-04);
+  padding: 1em;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: var(--grad-clr-02);
+}
+.navigation a::first-letter {
+  color: var(--primary-clr-06);
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.navigation a:hover {
+  border-bottom: solid 3px var(--primary-clr-06);
+}
