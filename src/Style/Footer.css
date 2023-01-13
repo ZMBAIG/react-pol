@@ -14,7 +14,7 @@ footer div a {
 .vacatures {
   display: flex;
   justify-content: center;
-  gap: 2em;
+  gap: 1em;
 }
 .disclaim {
   display: flex;

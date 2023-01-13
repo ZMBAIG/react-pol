@@ -15,7 +15,7 @@ form {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 0;
 }
 
@@ -44,6 +44,7 @@ form {
 }
 .keuze {
   margin: 0;
+  text-align: left;
 }
 
 .form input:hover {
@@ -51,10 +52,18 @@ form {
 }
 .bet {
   margin-bottom: 0;
+  text-align: left;
 }
 .betreft {
   margin-left: 2em;
   padding: 0.5em 0;
+  align-items: flex-start;
+  font-size: 12px;
+}
+
+form p {
+  font-size: 12px;
+  text-align: center;
 }
 p span {
   color: red;
