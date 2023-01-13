@@ -4,7 +4,7 @@ function Main(props) {
     <main>
       {" "}
       <h1>Goedemorgen, waarmee kunnen wij u helpen?</h1>{" "}
-      <input type="search" placeholder="Zoek..." class="header__logo" />
+      <input type="search" placeholder="Zoek..." class="zoek" />
       <div>
         <span class="spoed">
           <i class="fa fa-phone"></i> Bij spoed: 112 Geen spoed: 0900 8844
