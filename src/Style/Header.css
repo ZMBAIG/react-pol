@@ -6,11 +6,19 @@ input[type="search"] {
 
 .dropbtn {
   outline: 1px solid var(--primary-clr-05);
-  color: var(--primary-clr-04);
+  background-color: var(--primary-clr-04);
   color: white;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   border: none;
   cursor: pointer;
+}
+.dropbtn:hover {
+  background-color: var(--primary-clr-05);
+  color: var(--primary-clr-04);
+}
+.fa-caret-down {
+  margin-left: 1em;
+  font-size: 1.25em;
 }
 .dropdown {
   position: relative;
@@ -46,7 +54,7 @@ input[type="search"] {
 #pol-logo {
   height: 100px;
   width: 100px;
-  top: 3em;
+  top: 4.5em;
   position: relative;
 }
 .navigation {
@@ -61,18 +69,6 @@ input[type="search"] {
   top: 0;
   box-shadow: var(--grad-clr-02);
   width: 100%;
-}
-
-.nav-left {
-  display: flex;
-  /* gap: 20px; */
-  width: 250px;
-  justify-content: space-evenly;
-}
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 40px;
 }
 
 .navigation a::first-letter {

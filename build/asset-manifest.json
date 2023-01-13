@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-pol/static/css/main.335d66ed.css",
-    "main.js": "/react-pol/static/js/main.ae5dfcd5.js",
+    "main.css": "/react-pol/static/css/main.278e2308.css",
+    "main.js": "/react-pol/static/js/main.a7274918.js",
     "static/media/Politie-logo-269952DA5A-seeklogo.com.png": "/react-pol/static/media/Politie-logo-269952DA5A-seeklogo.com.cba841405777845ee994.png",
     "index.html": "/react-pol/index.html",
-    "main.335d66ed.css.map": "/react-pol/static/css/main.335d66ed.css.map",
-    "main.ae5dfcd5.js.map": "/react-pol/static/js/main.ae5dfcd5.js.map"
+    "main.278e2308.css.map": "/react-pol/static/css/main.278e2308.css.map",
+    "main.a7274918.js.map": "/react-pol/static/js/main.a7274918.js.map"
   },
   "entrypoints": [
-    "static/css/main.335d66ed.css",
-    "static/js/main.ae5dfcd5.js"
+    "static/css/main.278e2308.css",
+    "static/js/main.a7274918.js"
   ]
 }

@@ -13,9 +13,12 @@ function Header(props) {
         <a href="/">Lorem</a>
         <a href="/">Lorem</a>
         <div class="dropdown">
-          <a class="dropbtn" href="/">
+          {/* <a class="dropbtn" href="/">
             LOREM
-          </a>
+          </a> */}
+          <button class="dropbtn">
+            LOREM<i class="fa fa-caret-down"></i>
+          </button>
           <div class="dropdown-content">
             <a href="/">Link One</a>
             <a href="/">Link Two</a>

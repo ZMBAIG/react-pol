@@ -19,7 +19,7 @@ main {
   border: none;
 }
 .zoek:hover {
-  border: 1px solid var(--primary-clr-04);
+  border: 1.5px solid red;
 }
 .spoed {
   display: block;
@@ -66,7 +66,7 @@ p i {
 }
 .article p {
   background-color: var(--primary-clr-01);
-  padding: 2em;
+  padding: 1.5em;
   width: 320px;
   font-size: 1em;
   box-shadow: var(--grad-clr-02);
