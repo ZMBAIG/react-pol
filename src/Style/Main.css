@@ -13,6 +13,12 @@ main {
   overflow: hidden;
   margin-top: 30px;
 }
+input[type="search"] {
+  padding: 8px 0;
+  margin-bottom: 6px;
+  padding-left: 6px;
+}
+
 .zoek {
   width: 40%;
   border-radius: 4px;
@@ -25,6 +31,7 @@ main {
   display: block;
   font-size: 1.25em;
   padding: 8px;
+  margin: 8px 0;
   animation-name: bellen;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -47,7 +54,7 @@ main h1 {
   background-color: var(--primary-clr-07);
   padding: 1em;
   font-size: 1.5em;
-  margin-top: 5.5em;
+  margin-top: 4em;
   color: var(--primary-clr-04);
   /* color: white; */
   box-shadow: var(--grad-clr-02);

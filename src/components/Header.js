@@ -5,7 +5,7 @@ function Header(props) {
     <header>
       <nav class="navigation">
         <a href="/">Home</a>
-        <a href="/">Lorem</a>
+        <a href="/">Aangifte of melding doen</a>
         <a href="https://www.nu.nl/" target="__blank">
           Nieuws
         </a>
@@ -13,11 +13,8 @@ function Header(props) {
         <a href="/">Lorem</a>
         <a href="/">Lorem</a>
         <div class="dropdown">
-          {/* <a class="dropbtn" href="/">
-            LOREM
-          </a> */}
           <button class="dropbtn">
-            LOREM<i class="fa fa-caret-down"></i>
+            Onderwerpen<i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
             <a href="/">Link One</a>
